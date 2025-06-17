@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bm2bw/Downloads/ivado_final_project/project_code/src/trainer/mlruns/0/50a56c5eff2a4f94a618dacb685b6098/artifacts
+end_time: 1707351166816
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50a56c5eff2a4f94a618dacb685b6098
+run_name: sincere-sloth-906
+run_uuid: 50a56c5eff2a4f94a618dacb685b6098
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707351166740
+status: 4
+tags: []
+user_id: bm2bw

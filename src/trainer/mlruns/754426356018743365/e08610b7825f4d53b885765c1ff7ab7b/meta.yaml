@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bm2bw/Downloads/ivado_final_project/project_code/src/trainer/mlruns/754426356018743365/e08610b7825f4d53b885765c1ff7ab7b/artifacts
+end_time: 1707349453585
+entry_point_name: ''
+experiment_id: '754426356018743365'
+lifecycle_stage: active
+run_id: e08610b7825f4d53b885765c1ff7ab7b
+run_name: adventurous-doe-927
+run_uuid: e08610b7825f4d53b885765c1ff7ab7b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707349453504
+status: 4
+tags: []
+user_id: bm2bw

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bm2bw/Downloads/ivado_final_project/project_code/src/trainer/mlruns/754426356018743365/0c2fc359af7d46cfac5d78a79f04e5ab/artifacts
+end_time: 1707349017704
+entry_point_name: ''
+experiment_id: '754426356018743365'
+lifecycle_stage: active
+run_id: 0c2fc359af7d46cfac5d78a79f04e5ab
+run_name: casual-boar-34
+run_uuid: 0c2fc359af7d46cfac5d78a79f04e5ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707349017613
+status: 3
+tags: []
+user_id: bm2bw

@@ -1,0 +1,29 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.0
+mlflow_version: 2.10.1
+model_size_bytes: 5024496
+model_uuid: 13912ca4724a4110a8c3182f7e045f4c
+run_id: fe32c88f69184fb0b72bca379255f352
+signature:
+  inputs: '[{"type": "long", "name": "gender", "required": true}, {"type": "long",
+    "name": "cholesterol", "required": true}, {"type": "long", "name": "gluc", "required":
+    true}, {"type": "long", "name": "smoke", "required": true}, {"type": "long", "name":
+    "alco", "required": true}, {"type": "long", "name": "active", "required": true},
+    {"type": "long", "name": "age_group", "required": true}, {"type": "long", "name":
+    "bmi", "required": true}, {"type": "long", "name": "map", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-02-08 16:21:17.136438'

@@ -1,0 +1,44 @@
+# version: "3.8"
+services:
+#   flaskapp:
+#     build:
+#       context: /Users/bm2bw/Downloads/ivado_final_project/project_code
+#       dockerfile: /Users/bm2bw/Downloads/ivado_final_project/project_code/dockerfile.server
+#     ports:
+#       - "5000:5000"
+
+#   frontend:
+#     image: nginx
+#     ports:
+#       - "81:81"
+#     volumes:
+#       - /Users/bm2bw/Downloads/ivado_final_project/project_code/src/predictor/templates:/usr/share/nginx/html
+
+#       #this file should be adapted
+
+  server:
+      build:
+        context: .
+        dockerfile: dockerfile.server
+      container_name: server-api
+      depends_on:
+        - mlflow
+      ports:
+        - 6000:6000
+      environment:
+        - LOG_LEVEL=DEBUG
+        - MODEL_NAME=random_forest
+        - MODEL_STAGE=Production
+        - MODEL_REGISTRY_URI=http://host.docker.internal:5000           
+        - COLLECTION=prediction
+  mlflow:
+    build:
+      context: .
+      dockerfile: dockerfile.mlflow
+    ports:
+      - "5000:5000"
+    environment:
+      - ARTIFACT_ROOT=/data/mlruns
+      - BACKEND_URI=sqlite:////data/backend.db
+    volumes:
+      - ./mlflow:/data

@@ -1,0 +1,11 @@
+-- prepare environment:
+mkdir /mflow
+
+-- install:
+sudo apt install docker
+sudo apt install docker-compose
+
+-- services (from .env):
+$ docker compose -f "docker-compose.yml" up -d --build mlflow
+ 
+$ docker compose -f "docker-compose.yml" up -d --build server

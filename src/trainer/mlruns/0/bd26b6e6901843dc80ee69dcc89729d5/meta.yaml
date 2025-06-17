@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bm2bw/Downloads/ivado_final_project/project_code/src/trainer/mlruns/0/bd26b6e6901843dc80ee69dcc89729d5/artifacts
+end_time: 1707351551280
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd26b6e6901843dc80ee69dcc89729d5
+run_name: blushing-mole-955
+run_uuid: bd26b6e6901843dc80ee69dcc89729d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707351544703
+status: 3
+tags: []
+user_id: bm2bw

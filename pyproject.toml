@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+
+[project]
+name = "greenbots"
+version = "2023.01"
+dependencies = [
+    'glob2',
+    'pandas',
+    'numpy',
+    # Note that we NEED to use the same version of scikit-learn than we used to train
+    'scikit-learn',
+    'pymongo',
+    'openpyxl',
+    'flask',
+    'mlflow==2.10.1',
+]
+
+
+

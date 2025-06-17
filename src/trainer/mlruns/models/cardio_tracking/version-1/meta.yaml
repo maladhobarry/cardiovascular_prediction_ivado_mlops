@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1707349525199
+current_stage: None
+description: null
+last_updated_timestamp: 1707349525199
+name: cardio_tracking
+run_id: b262053025654fccb3f054f25ae4061e
+run_link: null
+source: file:///C:/Users/bm2bw/Downloads/ivado_final_project/project_code/src/trainer/mlruns/754426356018743365/b262053025654fccb3f054f25ae4061e/artifacts/cardio
+status: READY
+status_message: null
+storage_location: file:///C:/Users/bm2bw/Downloads/ivado_final_project/project_code/src/trainer/mlruns/754426356018743365/b262053025654fccb3f054f25ae4061e/artifacts/cardio
+user_id: null
+version: 1

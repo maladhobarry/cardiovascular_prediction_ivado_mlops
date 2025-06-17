@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bm2bw/Downloads/ivado_final_project/project_code/src/trainer/mlruns/0/e1fa86fa907041cabb6a836b294396c1/artifacts
+end_time: 1707352224173
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1fa86fa907041cabb6a836b294396c1
+run_name: bemused-tern-759
+run_uuid: e1fa86fa907041cabb6a836b294396c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707352218382
+status: 3
+tags: []
+user_id: bm2bw

@@ -1,0 +1,16 @@
+artifact_path: cardio
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.0
+mlflow_version: 2.10.1
+model_size_bytes: 31
+model_uuid: 9a19c3e3f34248c39ff5cf95cf9ebbe8
+run_id: b262053025654fccb3f054f25ae4061e
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: values
+  type: dataframe
+utc_time_created: '2024-02-07 23:45:19.324659'

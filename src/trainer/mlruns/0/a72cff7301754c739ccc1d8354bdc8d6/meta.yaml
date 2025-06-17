@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bm2bw/Downloads/ivado_final_project/project_code/src/trainer/mlruns/0/a72cff7301754c739ccc1d8354bdc8d6/artifacts
+end_time: 1707351437593
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a72cff7301754c739ccc1d8354bdc8d6
+run_name: classy-snail-925
+run_uuid: a72cff7301754c739ccc1d8354bdc8d6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707351437525
+status: 4
+tags: []
+user_id: bm2bw

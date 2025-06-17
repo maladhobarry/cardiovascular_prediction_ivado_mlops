@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: greenbots
+Version: 2023.1
+Requires-Dist: glob2
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: pymongo
+Requires-Dist: openpyxl
+Requires-Dist: flask
+Requires-Dist: mlflow==2.10.1
+Requires-Dist: setuptools

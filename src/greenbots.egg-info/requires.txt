@@ -1,0 +1,9 @@
+glob2
+pandas
+numpy
+scikit-learn
+pymongo
+openpyxl
+flask
+mlflow==2.10.1
+setuptools
